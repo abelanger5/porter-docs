@@ -26,11 +26,11 @@ jobs:
       timeout-minutes: 30
       uses: porter-dev/porter-delete-preview-action@v0.2.0
       with:
-        cluster: "34"
+        cluster: "83"
         environment_id: ${{ github.event.inputs.environment_id }}
-        host: https://dashboard.dev.getporter.dev
+        host: https://dashboard.staging.getporter.dev
         pr_number: ${{ github.event.inputs.pr_number }}
-        project: "3"
+        project: "72"
         repo_name: porter-docs
         repo_owner: ${{ github.repository_owner }}
-        token: ${{ secrets.PORTER_TOKEN_3 }}
+        token: ${{ secrets.PORTER_TOKEN_72 }}
