@@ -5,7 +5,7 @@ resources:
       name: "web"
     config:
       build:
-        method: "pack"
+        method: "notamethod"
         builder: heroku/buildpacks:20
       values:
         container:
