@@ -7,7 +7,7 @@ resources:
       build:
         method: "pack"
         builder: heroku/buildpacks:20
-        useCache: true
+        use_cache: true
       values:
         container:
           port: 3000
